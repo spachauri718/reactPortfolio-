@@ -50,10 +50,10 @@ const Navbar = () => {
       <div
       onClick={()=>setNav(!nav)}
        className="cursor-pointer md:hidden">
-          {nav? <FaBars /> :<FaTimes/>}
+          {!nav? <FaBars /> :<FaTimes/>}
       </div>
 
-      {!nav && 
+      {nav && 
       <ul className=" mt-20  flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-400 ">
         {linksArray.map(({ id, title }) => (    
            <li key = {id} className="px-4 cursor-pointer py-6 text-4xl">
