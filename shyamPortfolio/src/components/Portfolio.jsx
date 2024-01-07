@@ -11,6 +11,8 @@ const Portfolio = () => {
     {
       id: 1,
       src: arrayDestruct,
+      demoLink: "https://drive.google.com/file/d/1hm0B0yCNSe4rnR7rZpY23qlcKgy4h3JE/view?usp=sharing",
+      codeLink : "https://github.com/spachauri718/shopRate"
     },
     {
       id: 2,
@@ -48,7 +50,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,demoLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,7 +58,7 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <a href="https://github.com/spachauri718/shopRate" target="_blank" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href={demoLink} target="_blank" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   Demo
                 </a>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">

@@ -14,23 +14,19 @@ const About = () => {
         </div>
 
         <p className="text-l md:text-xl mt-2">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        As an aspiring Full Stack MERN  developer, I am deeply passionate about creating innovative web applications that leave a lasting impact. Beyond my Development expertise, I am expert in solving problems using Data Structures and Algorithms with JAVA . I am committed to staying at the forefront of technology trends and continuously learning to refine my craft. Whether it's building seamless user interfaces or architecting robust backend systems, I approach every project with enthusiasm and a commitment to excellence.
+
         </p>
 
         <br />
+  
 
         <p className="text-l md:text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        Beyond the realm of coding, I find extreme joy in the world of books. Whether it's getting lost in the plot of a novel, exploring the pages of a non-fiction work books have always been my constant companions.
+      <br />
+      <br />
+
+      I am dedicated to pushing the boundaries of what's possible in web development, and I look forward to creating meaningful solutions that make a difference
         </p>
       </div>
     </div>
