@@ -3,6 +3,7 @@ import React from "react";
 import bookit from "../assets/portfolio/bookit.png";
 import playbox from "../assets/portfolio/playbox.png";
 import funProject from "../assets/portfolio/funProjects.png";
+import yelpcamp from "../assets/portfolio/yelpcamp.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -18,9 +19,15 @@ const Portfolio = () => {
       demoLink: "https://drive.google.com/file/d/1hm0B0yCNSe4rnR7rZpY23qlcKgy4h3JE/view?usp=sharing",
       codeLink : "https://github.com/spachauri718/bookIt"
     },
-    
     {
       id: 3,
+      src:yelpcamp,
+      demoLink: "https://yelp-camp-01.vercel.app/",
+      codeLink : "https://github.com/spachauri718/yelpcamp"
+    },
+    
+    {
+      id: 4,
       src: funProject,
       demoLink :"https://main--shyam-small-fun-projects.netlify.app/",
       codeLink : "https://github.com/spachauri718/allSmallProjects"
